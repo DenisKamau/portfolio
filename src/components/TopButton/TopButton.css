@@ -1,0 +1,47 @@
+.topButton {
+  display: none;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  animation: myanimation 2s infinite;
+  border-radius: 120px;
+}
+
+.topButton.active {
+  display: flex;
+  align-content: center;
+  box-shadow: 0px 6px 9px -5px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0px 6px 9px -5px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 6px 9px -5px rgba(0, 0, 0, 0.7);
+}
+
+.topButton:hover {
+  cursor: pointer;
+}
+
+.arrowIcon {
+  width: 37px;
+  height: 37px;
+}
+
+@keyframes myanimation {
+  75% {
+    bottom: 25px;
+  }
+}
+
+@keyframes mobileanimation {
+  50% {
+    bottom: 22px;
+  }
+  75% {
+    bottom: 27px;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .arrowIcon {
+    width: 37px;
+    height: 37px;
+  }
+}

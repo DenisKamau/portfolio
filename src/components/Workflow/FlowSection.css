@@ -1,0 +1,79 @@
+.flowSection {
+  width: 97vw;
+  height: 512px;
+  background-color: aliceblue;
+  padding: 0px 44px;
+  margin: 0 auto;
+}
+
+.flow {
+  display: flex;
+  flex-direction: column;
+}
+
+.flow > h2 {
+  width: 449px;
+  height: 45px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+  margin-top: 60px;
+}
+
+.flow > img {
+  width: 85%;
+  height: 161px;
+  margin-top: 44px;
+  margin-bottom: 85px;
+}
+
+.flow > p {
+  width: 545.32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000d9;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 991px) {
+  .flowSection {
+    margin-top: 60px;
+    height: 464px;
+    padding: 0px 23px;
+  }
+
+  .flow > img {
+    height: 109px;
+    width: 100%;
+  }
+
+  .flow > p {
+    width: auto;
+  }
+}
+
+/* Mobile Portrait */
+
+@media only screen and (max-width: 478px) and (orientation: portrait) {
+  .flowSection {
+    height: 425px;
+  }
+
+  .flow > h2 {
+    width: auto;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 40px;
+  }
+
+  .flow > p {
+    width: auto;
+    font-size: 12px;
+    line-height: 23px;
+  }
+}
