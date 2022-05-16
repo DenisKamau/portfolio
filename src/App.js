@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import MidSection from "./components/MidSection/MidSection";

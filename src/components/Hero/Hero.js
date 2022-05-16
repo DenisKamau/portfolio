@@ -34,9 +34,12 @@ const Hero = () => {
               </span>
             </p>
             <h1>
-              Web Designer & <br />
-              <span className="hero__Span">React/Webflow</span>
-              <br /> Developer
+              Frontend web <span className="hero__Span">developer</span>,
+              <span className="hero__Span">
+                {" "}
+                designer <br />{" "}
+              </span>{" "}
+              & software tinkerer <br />
             </h1>
             <p className="hero_paragraph">My goal is to create websites for those that want to stand out from the competition</p>
 
