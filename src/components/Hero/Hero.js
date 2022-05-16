@@ -27,7 +27,12 @@ const Hero = () => {
           <Navbar />
           <div style={styles.fadeIn} className="hero__Content">
             <img className="hero_image" src={avatar} alt="avatar" />
-            <p className="hero_myName">Hi, I’m Denis 👋</p>
+            <p className="hero_myName">
+              Hi, I’m Denis{" "}
+              <span role="img" aria-label="wave">
+                👋
+              </span>
+            </p>
             <h1>
               Web Designer & <br />
               <span className="hero__Span">React/Webflow</span>
@@ -35,7 +40,7 @@ const Hero = () => {
             </h1>
             <p className="hero_paragraph">My goal is to create websites for those that want to stand out from the competition</p>
 
-            <ScrollLink to="contact" spy={true} smooth={true} duration={1000}>
+            <ScrollLink to="contact" spy={true} smooth={true} duration={800}>
               <button>Hire me</button>
             </ScrollLink>
           </div>

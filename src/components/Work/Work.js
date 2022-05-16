@@ -1,8 +1,8 @@
 import React from "react";
 import "./Work.css";
-import image1 from "../../assets/Group-50.webp";
-import image2 from "../../assets/Group-58.webp";
-import image3 from "../../assets/Group-60.webp";
+import image1 from "../../assets/delight.png";
+import image2 from "../../assets/payments.png";
+import image3 from "../../assets/dash.png";
 import { Element } from "react-scroll";
 
 const Work = () => {
@@ -14,17 +14,18 @@ const Work = () => {
 
           <div className="project__Row">
             <div className="leftBlock">
-              <h2>Team App website</h2>
+              <h2>Naibrom Liquor Store</h2>
               <div className="techRow">
-                <button>Webflow Design</button>
-                <button>Webflow Development</button>
-                <button>Concept</button>
+                <button>Next js</button>
+                <button>Sass</button>
+                <button>APIs</button>
+                <button>Firebase</button>
               </div>
               <p>
-                Full website design and build for a concept team collaboration platform. This website also includes a beautiful blog. I have built the
-                website and the blog in Webflow which has one of the best CMS for blog hosting.
+                This is a headless ecommerce store I built for a client. The client needed a store where his customers can view all his products & order online. It utilizes APIs to handle ecommerce operations e.g adding to cart and checkouts. <br /> <br /> A customer can also create an account & track orders made in realtime. This site has a <text style={{ fontWeight: "700", color: "#000 !important" }}> Dark mode </text>
+                too.
               </p>
-              <a href="https://team-app-9ad9b5.webflow.io/">
+              <a href="https://naibrom.delivery">
                 <button>View project</button>
               </a>
             </div>
@@ -34,17 +35,14 @@ const Work = () => {
           </div>
           <div className="project__Row second">
             <div className="leftBlock">
-              <h2>Chat App website</h2>
+              <h2>Payments System Landing Page</h2>
               <div className="techRow">
-                <button>Webflow Design</button>
-                <button>Webflow Development</button>
-                <button>Concept</button>
+                <button>HTML</button>
+                <button>Sass</button>
+                <button>Javascript</button>
               </div>
-              <p>
-                This is a homepage design and build for a concept project – a chat application. I designed the page first then built a responsive web
-                page using Webflow.
-              </p>
-              <a href="https://chat-app-236a74.webflow.io/">
+              <p>This is a homepage design and build for a concept project – a payments system application. It was converted from a Figma design to a website using Html, Css and Javascript.</p>
+              <a href="https://payment-lp.vercel.app/">
                 <button>View project</button>
               </a>
             </div>
@@ -54,17 +52,17 @@ const Work = () => {
           </div>
           <div className="project__Row last">
             <div className="leftBlock">
-              <h2>Charity org. website</h2>
+              <h2>Covid Tracker</h2>
               <div className="techRow">
-                <button>Design</button>
-                <button>React Development</button>
-                <button>Concept</button>
+                <button>HTML</button>
+                <button>Sass</button>
+                <button>APIs</button>
+                <button>Javascript</button>
               </div>
               <p>
-                This is a homepage design and build of a charity organization website designed first in Figma then built the responsive website using
-                React js.
+                This is a Covid-19 Tracker that displays the number of positive cases, nagative cases and total number of people tested. All data displayed is fetched from an API and are from the latest reports. <br /> <br /> Positive cases in a county are displayed as red bubbles on the map of Kenya.
               </p>
-              <a href="https://charitygroup.netlify.app/">
+              <a href="https://covid-dashboard-two.vercel.app/">
                 <button>View project</button>
               </a>
             </div>

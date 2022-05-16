@@ -88,6 +88,13 @@
   border-radius: 4px;
   font-style: normal;
   font-size: 12px;
+  background-color: lightgrey;
+  opacity: 40%;
+}
+
+.formButton:hover {
+  box-shadow: none !important;
+  cursor: auto;
 }
 
 .copyright {

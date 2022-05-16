@@ -69,7 +69,7 @@ const Footer = () => {
               <p className="footerParagraph">
                 If you need a modern and powerful website for your business, startup or yourself, I am available for work. You can email me directly at
                 <span style={{ color: "rgb(77, 119, 249)" }}> denokim55@gmail.com</span> or call me
-                <span style={{ color: "rgb(77, 119, 249)" }}> +254710857297.</span>
+                <span style={{ color: "rgb(77, 119, 249)" }}> +254710857297</span>
               </p>
             </div>
             <div className="footerRight">
@@ -77,25 +77,25 @@ const Footer = () => {
                 <div className="formTopSection">
                   <div>
                     <label htmlFor="name">Name</label>
-                    <input value={ToSend.from_name} onChange={handleChange} required placeholder="Enter your name" type="text" name="from_name" />
+                    <input disabled value={ToSend.from_name} onChange={handleChange} required placeholder="Enter your name" type="text" name="from_name" />
                   </div>
                   <div className="emailInput">
                     <label htmlFor="email">Email</label>
-                    <input value={ToSend.reply_to} onChange={handleChange} required placeholder="Enter your email" type="email" name="reply_to" />
+                    <input disabled value={ToSend.reply_to} onChange={handleChange} required placeholder="Enter your email" type="email" name="reply_to" />
                   </div>
                 </div>
                 <div className="formBottomSection">
                   <label htmlFor="message">Message</label>
-                  <textarea value={ToSend.message} onChange={handleChange} required placeholder="Enter your message" type="text" name="message" />
+                  <textarea disabled value={ToSend.message} onChange={handleChange} required placeholder="Enter your message" type="text" name="message" />
                 </div>
-                <button onClick={sendEmail} type="submit" className="formButton">
+                <button disabled onClick={sendEmail} type="submit" className="formButton">
                   Send
                 </button>
               </form>
             </div>
           </div>
           <div className="footerIcons">
-            <p className="copyright">Copyright © 2021 Denis. All rights reserved</p>
+            <p className="copyright">Copyright © 2022 Denis. All rights reserved</p>
             <div className="linkIcons">
               <a href="https://github.com/DenisKamau?tab=repositories">
                 <img className="githubIcon" src={githubIcon} alt="github" />
