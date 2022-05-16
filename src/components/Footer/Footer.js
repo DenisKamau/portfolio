@@ -67,8 +67,7 @@ const Footer = () => {
                 Let's get in touch !
               </h2>
               <p className="footerParagraph">
-                If you need a modern and powerful website for your business, startup or yourself, I am available for work. You can email me directly
-                at
+                If you need a modern and powerful website for your business, startup or yourself, I am available for work. You can email me directly at
                 <span style={{ color: "rgb(77, 119, 249)" }}> denokim55@gmail.com</span> or call me
                 <span style={{ color: "rgb(77, 119, 249)" }}> +254710857297.</span>
               </p>
