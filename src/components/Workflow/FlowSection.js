@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./FlowSection.css";
 import DesktopImage from "../../assets/desktopimage.webp";
 import MobileiImage from "../../assets/mobileimage.webp";
@@ -9,6 +9,11 @@ const FlowSection = () => {
   const changeImage = () => {
     window.innerWidth <= 478 ? setMobileImage(true) : setMobileImage(false);
   };
+
+  useEffect(() => {
+    window.addEventListener("resize", changeImage);
+    return () => window.removeEventListener("resize", changeImage);
+  }, []);
 
   window.addEventListener("scroll", changeImage);
 

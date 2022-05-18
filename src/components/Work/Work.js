@@ -1,8 +1,8 @@
 import React from "react";
 import "./Work.css";
-import image1 from "../../assets/delight.png";
-import image2 from "../../assets/payments.png";
-import image3 from "../../assets/dash.png";
+import image1 from "../../assets/delight.webp";
+import image2 from "../../assets/payments.webp";
+import image3 from "../../assets/dash.webp";
 import { Element } from "react-scroll";
 
 const Work = () => {

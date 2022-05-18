@@ -97,21 +97,20 @@
   .project__Row {
     flex-wrap: wrap;
     flex-direction: column-reverse;
+    margin-bottom: 60px;
+  }
+
+  .project__Row:last-child {
+    margin-bottom: 0px;
   }
 
   .workHeading {
     margin-bottom: 15px;
   }
 
-  .rightBlock {
-    display: flex;
-    justify-content: center;
-    background-color: #f5f5ff;
-    margin-bottom: 40px;
-  }
-
   .rightBlock > img {
     height: 350px;
+    margin-left: -16px;
   }
 
   .leftBlock > p {
