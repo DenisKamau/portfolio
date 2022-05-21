@@ -41,10 +41,12 @@ const Hero = () => {
               </span>{" "}
               & software tinkerer <br />
             </h1>
-            <p className="hero_paragraph">My goal is to create websites for those that want to stand out from the competition</p>
+            <p className="hero_paragraph">
+              I am currently working at <span style={{ fontWeight: "600", color: "#4b5563" }}>Value Chain Factory </span> in Nairobi, Kenya.
+            </p>
 
-            <ScrollLink to="contact" spy={true} smooth={true} duration={800}>
-              <button>Hire me</button>
+            <ScrollLink to="contact" spy={true} smooth={true} duration={1800}>
+              <button>Contact me</button>
             </ScrollLink>
           </div>
         </div>
