@@ -1,5 +1,6 @@
 .footerSection {
   padding-bottom: 20px;
+  background-color: aliceblue;
 }
 
 .footer {
@@ -57,7 +58,7 @@
   width: 267px;
   height: 45px;
   padding: 0px 10px;
-  background: #ffffff;
+  background-color: aliceblue;
   border: 2px solid #bbc8d4;
   box-sizing: border-box;
   border-radius: 4px;
